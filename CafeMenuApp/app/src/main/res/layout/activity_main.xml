@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FBFADA"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/textView"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="63dp"
+
+            android:fontFamily="cursive"
+
+            android:text="Barista Cafe"
+
+            android:textAlignment="center"
+
+            android:textColor="#12372A"
+
+            android:textSize="40sp"
+
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="668dp"
+            android:layout_below="@+id/layout2" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
